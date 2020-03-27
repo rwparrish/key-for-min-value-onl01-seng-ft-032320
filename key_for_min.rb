@@ -8,8 +8,11 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, age|
     if age < low_age
       low_age = age
-      
-    else
+      low_key = key
+      end
+    end
+  low_key
+end
       
     
   
